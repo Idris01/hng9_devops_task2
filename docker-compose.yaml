@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  frontend:
+    image: idris01/hng9_devop2_frontend
+    ports:
+      - "3000:3000"
+
+  backend:
+    image: idris01/hng9_devop2_backend  
